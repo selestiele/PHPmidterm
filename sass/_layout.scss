@@ -1,0 +1,135 @@
+// filename: _layout.scss
+// author: Liz Bank
+// date: 2/12/18
+
+@import "_variables.scss";
+@import "_mixins.scss";
+
+/* --------------------- Typography --------------------- */
+
+p {
+    font-family: $sans;
+    font-size: 1em;
+    color: $darkblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headings;
+    margin: .5em 0;
+    color: $darkblue;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.8em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: .8em;
+}
+
+h6 {
+    font-size: .6em;
+}
+
+/* --------------------- Mobile Layout --------------------- */
+
+html {
+    background-color: $darkblue;
+}
+
+body {
+    background-color: $gray;
+    margin: 0 auto;
+    max-width: 80%; 
+    padding: 1em;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+label {
+    font-family: $sans;
+}
+
+.addButton {
+    padding: .25em;
+    font-family: $sans;
+    font-size: 1em;
+    background-color: $darkblue;
+    color: $gray;
+    margin: 1em 0;
+    width: 25%;
+    text-align: center;
+}
+
+.copyright {
+    font-family: $sans;
+    text-align: center;
+    border-top: 1px solid $darkblue;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.addButton a {
+    background-color: $darkblue;
+    color: $gray;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: .5em;
+    font-family: $sans;
+    text-align: left;
+    color: $darkblue;
+}
+
+th {
+    border-bottom: 2px solid $darkblue;
+}
+
+.deleteButton {
+    font-family: $sans;
+    font-size: 1em;
+    padding: .5em;
+    background-color: $darkblue;
+    color: $gray;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: .5em;
+    margin: .5em;
+}
+
+label {
+    font-weight: 700;
+    color: $darkblue;
+}
+/* --------------------- Desktop Layout --------------------- */
+
